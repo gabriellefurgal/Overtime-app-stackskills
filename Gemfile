@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.6'
+gem 'rails', '~> 5.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg', '~> 0.15'
-
+gem 'pg', '~> 0.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -48,6 +47,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'database_cleaner'
+   gem 'factory_girl_rails', '~> 4.7'
 end
 
 group :development do
@@ -57,3 +57,6 @@ end
 
 
 gem 'tzinfo-data'
+
+gem 'i18n', '~> 0.8.6'
+gem 'json', '~> 1.8.6'
