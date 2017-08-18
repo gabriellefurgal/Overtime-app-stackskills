@@ -5,8 +5,8 @@ company needs decumentation that salaried employees did or did not get overtime 
 
 ## Models
 - Post -> date:date rationale:text
-- User -> Devise
-- AdminUser -> STI
+x User -> Devise
+x AdminUser -> STI
 
 ## Features: 
 - Approval Workflow
