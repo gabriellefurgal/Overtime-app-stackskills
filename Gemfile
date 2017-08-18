@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.0'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Deploy with Capistrano
+# Deploy with Capistran
 # gem 'capistrano'
 
 # To use debugger
@@ -60,3 +60,5 @@ gem 'tzinfo-data'
 
 gem 'i18n', '~> 0.8.6'
 gem 'json', '~> 1.8.6'
+
+gem 'devise', '~> 4.3'
