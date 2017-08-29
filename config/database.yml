@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: Overtime_development
+  database: Overtime_development2
   host: localhost
   pool: 5
   username: Overtime
@@ -43,7 +43,7 @@ test:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: Overtime_test
+  database: Overtime_test2
   pool: 5
   username: Overtime
   password: produkcja
